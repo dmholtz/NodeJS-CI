@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-ci",
+  "version": "1.0.0",
+  "description": "A playground for creating unit tests for NodeJS and continuous integration",
+  "main": "mymath.js",
+  "scripts": {
+    "test": "mocha --reporter list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmholtz/NodeJS-CI.git"
+  },
+  "author": "dmholtz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmholtz/NodeJS-CI/issues"
+  },
+  "homepage": "https://github.com/dmholtz/NodeJS-CI#readme",
+  "devDependencies": {
+    "mocha": "^9.1.4"
+  }
+}
